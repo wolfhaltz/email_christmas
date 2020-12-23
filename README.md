@@ -5,7 +5,9 @@
 <img src="src/icons/html5.svg" width="16" />
 <br/><br/>
 <b>What is this?</b><br/>
-A README.md file!
+An e-mail template repository that I designed and code ^-^
+<br/>
+Enjoy!
 <br/><br/>
 <b>Description:</b><br/>
 A responsive pack of templates of Christmas!
