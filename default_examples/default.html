@@ -6,26 +6,31 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Default</title>
         <style type="text/css">
-            body {
-                margin: 0;
-                padding: 0;
+            table{border-spacing: 0;}
+            td{padding: 0;}
+            img{border: 0;}
+
+            .wrapper{
+                width: 100%;
+                table-layout: fixed;
+                background-color: #f6f9fc;
+                padding-bottom: 40px;
             }
-            table {
+            .webkit{
+                max-width: 600px;
+                background-color: #ffffff;
+            }
+            .outer{
+                margin: 0 auto;
+                width: 100%;
+                max-width: 600px;
                 border-spacing: 0;
-            }
-            td {
-                padding: 0;
-            }
-            img {
-                border: 0;
-            }
-            @media screen and (max-width: 600px){
-            }
-            @media screen and (max-width: 400px){
+                font-family: sans-serif;
+                color: #4a4a4a;
             }
         </style>
     </head>
-    <body>
+    <body style="margin: 0;padding: 0;background-color: #f6f9fc;">
         <center class="wrapper">
             <div class="webkit">
                 <table class="outer" align="center">
