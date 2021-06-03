@@ -1,4 +1,5 @@
-# E-mail template: Christmas Edition!
+# HTML Emails
+## Responsive emails templates constructed with HTML
 
 <b>Made with:</b><br/>
 <img src="src/icons/css3.svg" width="16" />
@@ -10,7 +11,7 @@ An e-mail template repository that I designed and code ^-^
 Enjoy!
 <br/><br/>
 <b>Description:</b><br/>
-A responsive pack of templates of Christmas!
+A responsive pack of templates and parts of templates to you build your Frankstein :)
 <br/><br/>
 # Quick links &#128150;
 <div>
@@ -21,13 +22,9 @@ A responsive pack of templates of Christmas!
 
 # Project setup
 ```
-Type the commands here
+Open the selected HTML file on your favorite browser
 ```
 
-### Compiles and hot-reloads for development
-```
-Type the commands here
-```
 
 <b>Thank you for your support!</b>
 
@@ -36,10 +33,10 @@ Type the commands here
 
 
 # How is the development of the project right now?
-<b>Last update:</b> 13/12/2020
+<b>Last update:</b> 02/06/2021
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin pharetra molestie finibus. Donec lacinia quam at est lobortis tempus. Proin ac ipsum vel orci aliquam consectetur.
-
+Update with some clean at code, and a new item is available.
+  
 <br/>
 
 # Credits
