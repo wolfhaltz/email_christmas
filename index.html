@@ -16,11 +16,11 @@
                 background-color: #f6f9fc;
                 padding-bottom: 40px;
             }
-            .webkit {
+            .webkit{
                 max-width: 600px;
                 background-color: #ffffff;
             }
-            .outer {
+            .outer{
                 margin: 0 auto;
                 width: 100%;
                 max-width: 600px;
@@ -29,7 +29,18 @@
                 color: #4a4a4a;
             }
 
-            /* 2 divs*/
+            .header{
+                text-align: center;
+                font-size: 0;
+            }
+            .header .header__column{
+                width: 100%;
+                max-width: 300px;
+                vertical-align: middle;
+                padding: 5px 0px 5px 0px;
+                display: inline-flex;
+            }
+
             .two-columns {
                 text-align: center;
                 font-size: 0px;
@@ -48,12 +59,36 @@
                 font-size: 15px;
                 line-height: 20px;
             }
+
+
+            .logo{justify-content: flex-start;}
+            @media screen and (max-width: 600px) {
+                .logo{justify-content: center;}
+            }
         </style>
     </head>
     <body style="margin: 0;padding: 0;background-color: #f6f9fc;">
         <center class="wrapper">
             <div class="webkit">
                 <table class="outer" align="center">
+                    <tr>
+                        <td>
+                            <table width="100%" style="border-spacing: 0;">
+                                <td class="header">
+                                    <table class="header__column logo">
+                                        <tr>
+                                            <td>
+                                                <a href="#">
+                                                    <img src="https://fakeimg.pl/120x60/?retina=1&text=こんにちは&font=noto" width="100" title="logo">
+                                                </a>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    <table class="header__column"></table>
+                                </td>
+                            </table>
+                        </td>
+                    </tr>
                     <tr>
                         <td>
                             <table width="100%" style="border-spacing: 0;">
